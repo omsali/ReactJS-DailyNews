@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.newsItem {
+  box-shadow: 0px 0px 15px rgba(112, 112, 112, 0.637);
+  border-radius: 15px;
+  height: max-content;
+}
+
+.card-img-top{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
