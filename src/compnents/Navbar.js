@@ -14,7 +14,7 @@ export class Navbar extends Component {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/">Home</Link></li>
+            <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/general">Home</Link></li>
             <div className="dropdown">
                 <button className="btn btn-dark text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Categories</button>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
