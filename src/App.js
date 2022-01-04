@@ -41,7 +41,7 @@ export default class App extends Component {
           <Switch>
             <Route exact path="/business"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey} key="business" pageSize={this.pageSize} country='in' category="business"/></Route>
             <Route exact path="/entertainment"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey} key="entertainment" pageSize={this.pageSize} country='in' category="entertainment"/></Route>
-            <Route exact path="/general"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey} key="general" pageSize={this.pageSize} country='in' category="general"/></Route>
+            <Route exact path="/"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey} key="general" pageSize={this.pageSize} country='in' category="general"/></Route>
             <Route exact path="/health"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey} key="health" pageSize={this.pageSize} country='in' category="health "/></Route>
             <Route exact path="/science"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey}  key="science" pageSize={this.pageSize} country='in' category="science"/></Route>
             <Route exact path="/sports"><NewsComponent setProgress={this.setProgress} apiKey={this.apiKey} key="sports" pageSize={this.pageSize} country='in' category="sports"/></Route>
